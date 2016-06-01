@@ -13,71 +13,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/jauns_sludinajums"
-        android:id="@+id/jauns_slud_id"
+        android:text="Esi sveicināts"
+        android:id="@+id/tvUser"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/slud_nosaukums"
-        android:layout_below="@+id/jauns_slud_id"
-        android:layout_marginTop="64dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:inputType="textImeMultiLine"
-        android:hint="Nosaukums" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:id="@+id/slud_datums"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/slud_nosaukums"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:editable="false"
-        android:inputType="text"
-        android:hint="Datums" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:id="@+id/slud_cena"
-        android:layout_below="@+id/slud_datums"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:inputType="text"
-        android:hint="Cena" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:id="@+id/slud_info"
-        android:layout_below="@+id/slud_cena"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:inputType="textImeMultiLine"
-        android:hint="Informacija" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/saglabat"
-        android:id="@+id/btnSaglabatSlud"
-        android:layout_marginBottom="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="addSludinajums" />
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
